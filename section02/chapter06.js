@@ -11,7 +11,7 @@ for (let i = 0; i < arr2.length; i++) {
   // console.log(arr2[i]);
 }
 
-// 1-2. for of 반복문
+// 1-2. for of 반복문 -> 배열 순회에만 사용
 for (let item of arr) {
   console.log(item);
 }
@@ -52,7 +52,7 @@ for (let i = 0; i < values.length; i++) {
   console.log(values[i]);
 }
 
-// 2-3. for in
+// 2-3. for in -> 객체에만 사용
 for (let key in person) {
   const value = person[key];
   console.log(key, value);

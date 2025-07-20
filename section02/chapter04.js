@@ -30,6 +30,8 @@ funcA(...arr1); // 1 2 3
 function funcB(one, ...rest) {
   // spread가 아닌 rest
   // 첫번째 인수는 one에 저장되고 나머지 값이 rest에 저장됨
+  // rest 뒤에 추가적으로 매개변수를 더 선언할 수 X, rest가 마지막이어야 함
   console.log(rest); // [2, 3]
 }
+
 funcB(...arr1);
